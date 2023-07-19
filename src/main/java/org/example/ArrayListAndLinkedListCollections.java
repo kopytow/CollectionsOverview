@@ -8,7 +8,7 @@ import java.util.List;
 public class ArrayListAndLinkedListCollections {
     public static void main(String[] args) {
 
-        var arr = new ArrayList<Integer>(Arrays.asList(-1,-2,3,5,7,9));
+        var arr = new ArrayList<>(Arrays.asList(-1,-2,3,5,7,9));
         var averages = getRollingAverage(arr, 2);
         System.out.println("Source array : " + arr);
         System.out.println("Averages of subarrays averages of length " + 2 + ": " + averages);
