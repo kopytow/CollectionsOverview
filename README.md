@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CollectionsOverview
 Домашнее задание к уроку "Обзор коллекций в Java"
 1: Реализуй метод, который поменяет ключи и значения в HashMap местами. На вход в метод поступает HashMap<Integer, String>, надо вернуть HashMap<String, Integer>. Выведи результат.
